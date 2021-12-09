@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-class Suite"   thread-count="2">
+
+    <test name="CartPageTests">
+        <classes>
+            <class name="tests.CartPageTests"/>
+        </classes>
+    </test>
+    
+    <test name="CheckOutPageTests">
+        <classes>
+            <class name="tests.CheckOutPageTests"/>
+        </classes>
+    </test>
+
+    <test name="LoginFailure">
+        <classes>
+            <class name="tests.LoginFailure"/>
+        </classes>
+    </test>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductPageTests">
+        <classes>
+            <class name="tests.ProductPageTests"/>
+        </classes>
+    </test>
+
+</suite>

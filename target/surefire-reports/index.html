@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test-class_Suite">
+              <span class="suite-name border-passed">Test-class Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test-class_Suite">
+                    <span>C:\Users\a.khawaja\IdeaProjects\Capmo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test-class_Suite">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test-class_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test-class_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test-class_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test-class_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test-class_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test-class_Suite" class="hide-methods passed suite-Test-class_Suite"> (hide)</a> <!-- hide-methods passed suite-Test-class_Suite -->
+                      <a href="#" panel-name="suite-Test-class_Suite" class="show-methods passed suite-Test-class_Suite"> (show)</a> <!-- show-methods passed suite-Test-class_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test-class_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.LoginFailure" hash-for-method="LoginFailure({Username=standard_user, Password=12345678, Description=Wrong password})">LoginFailure({Username=standard_user, Password=12345678, Description=Wrong password})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.LoginFailure" hash-for-method="LoginFailure({Username=Test username, Password=secret_sauce, Description=Wrong username})">LoginFailure({Username=Test username, Password=secret_sauce, Description=Wrong username})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.LoginTest" hash-for-method="LoginPage({Username=standard_user, Password=secret_sauce, Description=Happy path})">LoginPage({Username=standard_user, Password=secret_sauce, Description=Happy path})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyAllProductImagesArePresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyAllProductImagesArePresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.CartPageTests" hash-for-method="verifyCartPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyCartPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.CheckOutPageTests" hash-for-method="verifyCheckOutOrder({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyCheckOutOrder({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.CartPageTests" hash-for-method="verifyClickOnBackToShopping({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyClickOnBackToShopping({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.CheckOutPageTests" hash-for-method="verifyOderCancelOnCheckOutPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyOderCancelOnCheckOutPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductAddedToCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductAddedToCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductDescriptionIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductDescriptionIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductPageIsNOTEmpty({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductPageIsNOTEmpty({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductPageOpen({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductPageOpen({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductPriceIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductPriceIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.CartPageTests" hash-for-method="verifyProductRemovalFromCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductRemovalFromCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-class_Suite" title="tests.ProductPageTests" hash-for-method="verifyProductTitleIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">verifyProductTitleIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test-class_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test-class_Suite" class="panel Test-class_Suite">
+          <div class="suite-Test-class_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginFailure</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFailure({Username=standard_user, Password=12345678, Description=Wrong password})">
+                  </a> <!-- LoginFailure({Username=standard_user, Password=12345678, Description=Wrong password}) -->
+                  <span class="method-name">LoginFailure</span>
+                  <span class="parameters">({Username=standard_user, Password=12345678, Description=Wrong password})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFailure({Username=Test username, Password=secret_sauce, Description=Wrong username})">
+                  </a> <!-- LoginFailure({Username=Test username, Password=secret_sauce, Description=Wrong username}) -->
+                  <span class="method-name">LoginFailure</span>
+                  <span class="parameters">({Username=Test username, Password=secret_sauce, Description=Wrong username})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class_Suite-class-passed -->
+          <div class="suite-Test-class_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage({Username=standard_user, Password=secret_sauce, Description=Happy path})">
+                  </a> <!-- LoginPage({Username=standard_user, Password=secret_sauce, Description=Happy path}) -->
+                  <span class="method-name">LoginPage</span>
+                  <span class="parameters">({Username=standard_user, Password=secret_sauce, Description=Happy path})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class_Suite-class-passed -->
+          <div class="suite-Test-class_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyCartPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyCartPage</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnBackToShopping({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyClickOnBackToShopping({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyClickOnBackToShopping</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductRemovalFromCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductRemovalFromCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductRemovalFromCart</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class_Suite-class-passed -->
+          <div class="suite-Test-class_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllProductImagesArePresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyAllProductImagesArePresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyAllProductImagesArePresent</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAddedToCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductAddedToCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductAddedToCart</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDescriptionIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductDescriptionIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductDescriptionIsPresent</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPageIsNOTEmpty({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductPageIsNOTEmpty({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductPageIsNOTEmpty</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPageOpen({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductPageOpen({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductPageOpen</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPriceIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductPriceIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductPriceIsPresent</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductTitleIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyProductTitleIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyProductTitleIsPresent</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class_Suite-class-passed -->
+          <div class="suite-Test-class_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckOutPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOutOrder({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyCheckOutOrder({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyCheckOutOrder</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOderCancelOnCheckOutPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)">
+                  </a> <!-- verifyOderCancelOnCheckOutPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...) -->
+                  <span class="method-name">verifyOderCancelOnCheckOutPage</span>
+                  <span class="parameters">({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class_Suite-class-passed -->
+        </div> <!-- panel Test-class_Suite -->
+        <div panel-name="test-xml-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\a.khawaja\IdeaProjects\Capmo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test-class Suite&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;CartPageTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CartPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CartPageTests --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;CheckOutPageTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckOutPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckOutPageTests --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;LoginFailure&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginFailure&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginFailure --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;ProductPageTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProductPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProductPageTests --&gt;
+&lt;/suite&gt; &lt;!-- Test-class Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test-class Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CartPageTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckOutPageTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginFailure (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ProductPageTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test-class Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test-class Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test-class_Suite');
+function tableData_Test-class_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCheckOutOrder')
+data.setCell(0, 2, 'tests.CheckOutPageTests')
+data.setCell(0, 3, 5894);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyOderCancelOnCheckOutPage')
+data.setCell(1, 2, 'tests.CheckOutPageTests')
+data.setCell(1, 3, 5503);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCartPage')
+data.setCell(2, 2, 'tests.CartPageTests')
+data.setCell(2, 3, 4969);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductRemovalFromCart')
+data.setCell(3, 2, 'tests.CartPageTests')
+data.setCell(3, 3, 4437);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyProductPageOpen')
+data.setCell(4, 2, 'tests.ProductPageTests')
+data.setCell(4, 3, 3733);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAllProductImagesArePresent')
+data.setCell(5, 2, 'tests.ProductPageTests')
+data.setCell(5, 3, 3464);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyClickOnBackToShopping')
+data.setCell(6, 2, 'tests.CartPageTests')
+data.setCell(6, 3, 3451);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyProductAddedToCart')
+data.setCell(7, 2, 'tests.ProductPageTests')
+data.setCell(7, 3, 3378);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductTitleIsPresent')
+data.setCell(8, 2, 'tests.ProductPageTests')
+data.setCell(8, 3, 3326);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginFailure')
+data.setCell(9, 2, 'tests.LoginFailure')
+data.setCell(9, 3, 3279);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyProductDescriptionIsPresent')
+data.setCell(10, 2, 'tests.ProductPageTests')
+data.setCell(10, 3, 3164);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginFailure')
+data.setCell(11, 2, 'tests.LoginFailure')
+data.setCell(11, 3, 3094);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyProductPriceIsPresent')
+data.setCell(12, 2, 'tests.ProductPageTests')
+data.setCell(12, 3, 2939);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProductPageIsNOTEmpty')
+data.setCell(13, 2, 'tests.ProductPageTests')
+data.setCell(13, 3, 2852);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginPage')
+data.setCell(14, 2, 'tests.LoginTest')
+data.setCell(14, 3, 2816);
+window.suiteTableData['Test-class_Suite']= { tableData: data, tableDiv: 'times-div-Test-class_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-Test-class_Suite">
+              </div> <!-- times-div-Test-class_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test-class Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test-class_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartPage status=SUCCESS method=CartPageTests.verifyCartPage(java.util.Hashtab...)</span>
+                <span class="method-start">5354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnBackToShopping({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">5533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyClickOnBackToShopping status=SUCCESS method=CartPageTests.verifyClickOnBackTo...)</span>
+                <span class="method-start">8985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductRemovalFromCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">9022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductRemovalFromCart status=SUCCESS method=CartPageTests.verifyProductRemov...)</span>
+                <span class="method-start">13459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">13491 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckOutPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckOutOrder({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">14136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCheckOutOrder status=SUCCESS method=CheckOutPageTests.verifyCheckOutOrder(jav...)</span>
+                <span class="method-start">20031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyOderCancelOnCheckOutPage({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">20059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyOderCancelOnCheckOutPage status=SUCCESS method=CheckOutPageTests.verifyOderCa...)</span>
+                <span class="method-start">25563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">25591 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginFailure</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginFailure({Username=standard_user, Password=12345678, Description=Wrong password})</span>
+                <span class="method-start">26229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginFailure status=SUCCESS method=LoginFailure.LoginFailure(java.util.Hashtable)[p...)</span>
+                <span class="method-start">29323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginFailure({Username=Test username, Password=secret_sauce, Description=Wrong username})</span>
+                <span class="method-start">29351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginFailure status=SUCCESS method=LoginFailure.LoginFailure(java.util.Hashtable)[p...)</span>
+                <span class="method-start">32631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">32656 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginPage({Username=standard_user, Password=secret_sauce, Description=Happy path})</span>
+                <span class="method-start">33275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginPage status=SUCCESS method=LoginTest.LoginPage(java.util.Hashtable)[pri:1, ins...)</span>
+                <span class="method-start">36092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">36107 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPageIsNOTEmpty({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">36749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductPageIsNOTEmpty status=SUCCESS method=ProductPageTests.verifyProductPag...)</span>
+                <span class="method-start">39601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyAllProductImagesArePresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">39626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAllProductImagesArePresent status=SUCCESS method=ProductPageTests.verifyAllPr...)</span>
+                <span class="method-start">43090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAddedToCart({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">43120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductAddedToCart status=SUCCESS method=ProductPageTests.verifyProductAddedT...)</span>
+                <span class="method-start">46499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDescriptionIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">46524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductDescriptionIsPresent status=SUCCESS method=ProductPageTests.verifyProd...)</span>
+                <span class="method-start">49688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPageOpen({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">49712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductPageOpen status=SUCCESS method=ProductPageTests.verifyProductPageOpen(...)</span>
+                <span class="method-start">53446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPriceIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">53472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductPriceIsPresent status=SUCCESS method=ProductPageTests.verifyProductPri...)</span>
+                <span class="method-start">56411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductTitleIsPresent({Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T...)</span>
+                <span class="method-start">56435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyProductTitleIsPresent status=SUCCESS method=ProductPageTests.verifyProductTit...)</span>
+                <span class="method-start">59761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">59784 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

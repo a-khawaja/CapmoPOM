@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-class Suite" duration-ms="60061" started-at="2021-12-06T06:39:49Z" finished-at="2021-12-06T06:40:50Z">
+    <groups>
+    </groups>
+    <test name="CartPageTests" duration-ms="13776" started-at="2021-12-06T06:39:49Z" finished-at="2021-12-06T06:40:03Z">
+      <class name="tests.CartPageTests">
+        <test-method status="PASS" signature="verifyCartPage(java.util.Hashtable)[pri:0, instance:tests.CartPageTests@59f99ea]" name="verifyCartPage" duration-ms="4969" started-at="2021-12-06T06:39:50Z" data-provider="getData" finished-at="2021-12-06T06:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartPageTests@59f99ea]" name="tearDown" is-config="true" duration-ms="179" started-at="2021-12-06T06:39:54Z" finished-at="2021-12-06T06:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPage status=SUCCESS method=CartPageTests.verifyCartPage(java.util.Hashtable)[pri:0, instance:tests.CartPageTests@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyClickOnBackToShopping(java.util.Hashtable)[pri:0, instance:tests.CartPageTests@59f99ea]" name="verifyClickOnBackToShopping" duration-ms="3451" started-at="2021-12-06T06:39:55Z" data-provider="getData" finished-at="2021-12-06T06:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnBackToShopping -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartPageTests@59f99ea]" name="tearDown" is-config="true" duration-ms="35" started-at="2021-12-06T06:39:58Z" finished-at="2021-12-06T06:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnBackToShopping status=SUCCESS method=CartPageTests.verifyClickOnBackToShopping(java.util.Hashtable)[pri:0, instance:tests.CartPageTests@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductRemovalFromCart(java.util.Hashtable)[pri:1, instance:tests.CartPageTests@59f99ea]" name="verifyProductRemovalFromCart" duration-ms="4437" started-at="2021-12-06T06:39:58Z" data-provider="getData" finished-at="2021-12-06T06:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductRemovalFromCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartPageTests@59f99ea]" name="tearDown" is-config="true" duration-ms="32" started-at="2021-12-06T06:40:03Z" finished-at="2021-12-06T06:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductRemovalFromCart status=SUCCESS method=CartPageTests.verifyProductRemovalFromCart(java.util.Hashtable)[pri:1, instance:tests.CartPageTests@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.CartPageTests@59f99ea]" name="quit" is-config="true" duration-ms="639" started-at="2021-12-06T06:40:03Z" finished-at="2021-12-06T06:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CartPageTests -->
+    </test> <!-- CartPageTests -->
+    <test name="CheckOutPageTests" duration-ms="12093" started-at="2021-12-06T06:40:03Z" finished-at="2021-12-06T06:40:15Z">
+      <class name="tests.CheckOutPageTests">
+        <test-method status="PASS" signature="verifyCheckOutOrder(java.util.Hashtable)[pri:0, instance:tests.CheckOutPageTests@146ba0ac]" name="verifyCheckOutOrder" duration-ms="5894" started-at="2021-12-06T06:40:03Z" data-provider="getData" finished-at="2021-12-06T06:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutOrder -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckOutPageTests@146ba0ac]" name="tearDown" is-config="true" duration-ms="27" started-at="2021-12-06T06:40:09Z" finished-at="2021-12-06T06:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckOutOrder status=SUCCESS method=CheckOutPageTests.verifyCheckOutOrder(java.util.Hashtable)[pri:0, instance:tests.CheckOutPageTests@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyOderCancelOnCheckOutPage(java.util.Hashtable)[pri:0, instance:tests.CheckOutPageTests@146ba0ac]" name="verifyOderCancelOnCheckOutPage" duration-ms="5503" started-at="2021-12-06T06:40:09Z" data-provider="getData" finished-at="2021-12-06T06:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOderCancelOnCheckOutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckOutPageTests@146ba0ac]" name="tearDown" is-config="true" duration-ms="27" started-at="2021-12-06T06:40:15Z" finished-at="2021-12-06T06:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOderCancelOnCheckOutPage status=SUCCESS method=CheckOutPageTests.verifyOderCancelOnCheckOutPage(java.util.Hashtable)[pri:0, instance:tests.CheckOutPageTests@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.CheckOutPageTests@146ba0ac]" name="quit" is-config="true" duration-ms="638" started-at="2021-12-06T06:40:15Z" finished-at="2021-12-06T06:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CheckOutPageTests -->
+    </test> <!-- CheckOutPageTests -->
+    <test name="LoginFailure" duration-ms="7042" started-at="2021-12-06T06:40:15Z" finished-at="2021-12-06T06:40:22Z">
+      <class name="tests.LoginFailure">
+        <test-method status="PASS" signature="LoginFailure(java.util.Hashtable)[pri:1, instance:tests.LoginFailure@3abbfa04]" name="LoginFailure" duration-ms="3094" started-at="2021-12-06T06:40:15Z" data-provider="getData" finished-at="2021-12-06T06:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=standard_user, Password=12345678, Description=Wrong password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginFailure@3abbfa04]" name="tearDown" is-config="true" duration-ms="28" started-at="2021-12-06T06:40:18Z" finished-at="2021-12-06T06:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFailure status=SUCCESS method=LoginFailure.LoginFailure(java.util.Hashtable)[pri:1, instance:tests.LoginFailure@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginFailure(java.util.Hashtable)[pri:1, instance:tests.LoginFailure@3abbfa04]" name="LoginFailure" duration-ms="3279" started-at="2021-12-06T06:40:18Z" data-provider="getData" finished-at="2021-12-06T06:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=Test username, Password=secret_sauce, Description=Wrong username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginFailure@3abbfa04]" name="tearDown" is-config="true" duration-ms="25" started-at="2021-12-06T06:40:22Z" finished-at="2021-12-06T06:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFailure status=SUCCESS method=LoginFailure.LoginFailure(java.util.Hashtable)[pri:1, instance:tests.LoginFailure@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.LoginFailure@3abbfa04]" name="quit" is-config="true" duration-ms="615" started-at="2021-12-06T06:40:22Z" finished-at="2021-12-06T06:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.LoginFailure -->
+    </test> <!-- LoginFailure -->
+    <test name="LoginTest" duration-ms="3475" started-at="2021-12-06T06:40:22Z" finished-at="2021-12-06T06:40:26Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="LoginPage(java.util.Hashtable)[pri:1, instance:tests.LoginTest@553f17c]" name="LoginPage" duration-ms="2816" started-at="2021-12-06T06:40:22Z" data-provider="getData" finished-at="2021-12-06T06:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=standard_user, Password=secret_sauce, Description=Happy path}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@553f17c]" name="tearDown" is-config="true" duration-ms="15" started-at="2021-12-06T06:40:25Z" finished-at="2021-12-06T06:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPage status=SUCCESS method=LoginTest.LoginPage(java.util.Hashtable)[pri:1, instance:tests.LoginTest@553f17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.LoginTest@553f17c]" name="quit" is-config="true" duration-ms="642" started-at="2021-12-06T06:40:25Z" finished-at="2021-12-06T06:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="ProductPageTests" duration-ms="23666" started-at="2021-12-06T06:40:26Z" finished-at="2021-12-06T06:40:50Z">
+      <class name="tests.ProductPageTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="initialize" is-config="true" duration-ms="354" started-at="2021-12-06T06:39:49Z" finished-at="2021-12-06T06:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyProductPageIsNOTEmpty(java.util.Hashtable)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductPageIsNOTEmpty" duration-ms="2852" started-at="2021-12-06T06:40:26Z" data-provider="getData" finished-at="2021-12-06T06:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageIsNOTEmpty -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="24" started-at="2021-12-06T06:40:29Z" finished-at="2021-12-06T06:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPageIsNOTEmpty status=SUCCESS method=ProductPageTests.verifyProductPageIsNOTEmpty(java.util.Hashtable)[pri:0, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAllProductImagesArePresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyAllProductImagesArePresent" duration-ms="3464" started-at="2021-12-06T06:40:29Z" data-provider="getData" finished-at="2021-12-06T06:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductImagesArePresent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="30" started-at="2021-12-06T06:40:32Z" finished-at="2021-12-06T06:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllProductImagesArePresent status=SUCCESS method=ProductPageTests.verifyAllProductImagesArePresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductAddedToCart(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductAddedToCart" duration-ms="3378" started-at="2021-12-06T06:40:32Z" data-provider="getData" finished-at="2021-12-06T06:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="24" started-at="2021-12-06T06:40:36Z" finished-at="2021-12-06T06:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductAddedToCart status=SUCCESS method=ProductPageTests.verifyProductAddedToCart(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductDescriptionIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductDescriptionIsPresent" duration-ms="3164" started-at="2021-12-06T06:40:36Z" data-provider="getData" finished-at="2021-12-06T06:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDescriptionIsPresent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="23" started-at="2021-12-06T06:40:39Z" finished-at="2021-12-06T06:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductDescriptionIsPresent status=SUCCESS method=ProductPageTests.verifyProductDescriptionIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductPageOpen(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductPageOpen" duration-ms="3733" started-at="2021-12-06T06:40:39Z" data-provider="getData" finished-at="2021-12-06T06:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageOpen -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="25" started-at="2021-12-06T06:40:43Z" finished-at="2021-12-06T06:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPageOpen status=SUCCESS method=ProductPageTests.verifyProductPageOpen(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductPriceIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductPriceIsPresent" duration-ms="2939" started-at="2021-12-06T06:40:43Z" data-provider="getData" finished-at="2021-12-06T06:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPriceIsPresent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="23" started-at="2021-12-06T06:40:46Z" finished-at="2021-12-06T06:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPriceIsPresent status=SUCCESS method=ProductPageTests.verifyProductPriceIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyProductTitleIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f]" name="verifyProductTitleIsPresent" duration-ms="3326" started-at="2021-12-06T06:40:46Z" data-provider="getData" finished-at="2021-12-06T06:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Happy path, ProductDescription=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt., Username=standard_user, ProductName=Sauce Labs Bolt T-Shirt, ProductPrice=$15.99, ProductPrice2=$49.99, SecondProductDescription=It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office., Password=secret_sauce, LastName=Test2, SecondProductName=Sauce Labs Fleece Jacket, ZipCode=4109.0, SecondProductPrice=49.99, FirstName=Test1, FirstProductPrice=15.99}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTitleIsPresent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="tearDown" is-config="true" duration-ms="23" started-at="2021-12-06T06:40:49Z" finished-at="2021-12-06T06:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductTitleIsPresent status=SUCCESS method=ProductPageTests.verifyProductTitleIsPresent(java.util.Hashtable)[pri:1, instance:tests.ProductPageTests@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.ProductPageTests@2f686d1f]" name="quit" is-config="true" duration-ms="631" started-at="2021-12-06T06:40:49Z" finished-at="2021-12-06T06:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.ProductPageTests -->
+    </test> <!-- ProductPageTests -->
+  </suite> <!-- Test-class Suite -->
+</testng-results>
